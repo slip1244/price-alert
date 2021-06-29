@@ -1,0 +1,24 @@
+{
+  "testing": false,
+  "mainnet": {
+    "exchangeApi": "https://api.bybit.com",
+    "dataApi": "wss://stream.bybit.com/realtime",
+    "keys": {
+        "key": "",
+        "secret": ""
+    }
+  },
+  "testnet": {
+    "exchangeApi": "https://api-testnet.bybit.com",
+    "dataApi": "wss://stream-testnet.bybit.com/realtime",
+    "keys": {
+        "key": "",
+        "secret": ""
+    }
+  },
+  "etherscanKey": "",
+  "ticker": [["BTCUSD", ["btcusd", "btcusdt", "btc", "b", "bitcoin"]], ["ETHUSD", ["ethusd", "ethusdt", "eth", "e", "ethereum"]], ["Gas",["gas","g","gas-price"]]],
+  "interval": "1",
+  "statusUpdateCD": 1000,
+  "token": ""
+}
